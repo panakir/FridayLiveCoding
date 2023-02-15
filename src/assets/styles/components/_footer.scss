@@ -1,0 +1,28 @@
+.footer {
+  padding-bottom: 54px;
+}
+
+.footer__container {
+  display: flex;
+}
+
+.footer-navigation {
+  flex-grow: 1;
+  flex-basis: 100%;
+  padding-left: 150px;
+}
+
+.footer__title {
+  margin-bottom: 15px;
+}
+
+.footer-navigation__item {
+  margin-top: 5px;
+}
+
+.footer-navigation__link {
+  @extend %transition;
+  &:hover {
+    color: $color-prime;
+  }
+}

@@ -1,0 +1,53 @@
+.contact-us {
+  padding: 62px 0 82px;
+  margin-bottom: 56px;
+  background-color: $color-background;
+}
+
+.contact-us__title {
+  margin-bottom: 17px;
+}
+
+.contact-us__content {
+  max-width: 528px;
+}
+
+.contact-us__description {
+  margin-bottom: 33px;
+}
+
+.contact-us__contacts {
+  font-size: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  &:not(&:last-child) {
+    margin-bottom: 19px;
+  }
+  a {
+    margin-left: 11px;
+  }
+}
+
+.contact-us__line {
+  margin-bottom: 18px;
+}
+
+.contact-us__form {
+  input {
+    font-size: 1.6rem;
+    padding: 15px 20px;
+  }
+  textarea {
+    width: 100%;
+    resize: none;
+    @include font(1.6rem, 2.6rem, 400, $color-text)
+  }
+}
+
+.contact-us__button {
+  margin-top: 20px;
+  button {
+    height: 53px;
+    width: 117px;
+  }
+}

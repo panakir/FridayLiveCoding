@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <title>Friday Live Coding</title>
 </head>
 <body>
@@ -38,14 +39,13 @@
             </p>
             <div class="promo__buttons">
               <button class="button button_colored">Get started</button>
-              <a href="#" class="link-button">
+              <a href="#" class="button link-button ">
                 <span class="ico ico_play"></span>
-                Watch the Video
+                <span class="link-button__text">Watch the Video</span> 
               </a>
             </div>
           </div>
-          <img src="./assets/image/promo/promo-image.svg" alt="promo">
-         
+          <img class="promo__image" src="./assets/image/promo/promo-image.svg" alt="promo">
         </div>
       </div>
     </section>
@@ -54,50 +54,58 @@
         <h2 class="tools__title">
           We design tools to unveil your superpowers
         </h2>
-        <div class="layout-4-columns">
+        <div class="layout-4-columns tools__wrapper">
           <div class="tool">
             <div class="tool__icon">
-              <span class="icon-square_violent">
-                <span class="ico ico-arrow"></span>
+              <span class="icon-square icon-square_violent">
+                <span class="ico ico_arrow"></span>
               </span>
             </div>
-            <h4 class="tool__title">First click tests</h4>
-            <p class="tool__description">
-              While most people enjoy casino gambling.
-            </p>
+            <div class="tool__content">
+              <h4 class="tool__title">First click tests</h4>
+              <p class="tool__description">
+                While most people enjoy casino gambling.
+              </p>
+            </div>
           </div>
           <div class="tool">
             <div class="tool__icon">
-              <span class="icon-square_orange">
-                <span class="ico ico-snake"></span>
+              <span class="icon-square icon-square_orange">
+                <span class="ico ico_snake"></span>
               </span>
             </div>
-            <h4 class="tool__title">Design surveys</h4>
-            <p class="tool__description">
-              Sports betting, lottery and bingo playing for the fun.
-            </p>
+            <div class="tool__content">
+              <h4 class="tool__title">Design surveys</h4>
+              <p class="tool__description">
+                Sports betting, lottery and bingo playing for the fun.
+              </p>
+            </div>
           </div>
           <div class="tool">
             <div class="tool__icon">
-              <span class="icon-square_red">
-                <span class="ico ico-heart"></span>
+              <span class="icon-square icon-square_red">
+                <span class="ico ico_heart"></span>
               </span>
             </div>
-            <h4 class="tool__title">Preference tests</h4>
-            <p class="tool__description">
-              The Myspace page defines the individual.
-            </p>
+            <div class="tool__content">
+              <h4 class="tool__title">Preference tests</h4>
+              <p class="tool__description">
+                The Myspace page defines the individual.
+              </p>
+            </div>
           </div>
           <div class="tool">
             <div class="tool__icon">
-              <span class="icon-square_blue">
-                <span class="ico ico-sandclock"></span>
+              <span class="icon-square icon-square_blue">
+                <span class="ico ico_sandclock"></span>
               </span>
             </div>
-            <h4 class="tool__title">Five second tests</h4>
-            <p class="tool__description">
-              Personal choices and the overall personality of the person.
-            </p>
+            <div class="tool__content">
+              <h4 class="tool__title">Five second tests</h4>
+              <p class="tool__description">
+                Personal choices and the overall personality of the person.
+              </p>
+            </div>
           </div>
         </div>
         <div class="tools__button">
@@ -117,9 +125,9 @@
           <span class="tag tag_bordered">Culture</span>
           <span class="tag tag_bordered">Design</span>
         </div>
-        <div class="layout-3-columns">
+        <div class="layout-3-columns strategies__wrapper">
           <article class="strategy block-shadowed">
-            <img src="./assets/image/image/strategy/1.svg" alt="strategy" class="strategy__image">
+            <img src="./assets/image/strategy/1.svg" alt="strategy" class="strategy__image">
             <div class="strategy__content">
               <h3 class="strategy__title">
                 Increasing Prosperity With Positive Thinking
@@ -131,7 +139,55 @@
             </div>
           </article>
           <article class="strategy block-shadowed">
-            <img src="./assets/image/image/strategy/2.svg" alt="strategy" class="strategy__image">
+            <img src="./assets/image/strategy/2.svg" alt="strategy" class="strategy__image">
+            <div class="strategy__content">
+              <h3 class="strategy__title">
+                Motivation Is The First Step To Success
+              </h3>
+              <div class="strategy__tags">
+                <span class="tag tag_colored">Culture</span>
+              </div>
+            </div>
+          </article>
+          <article class="strategy block-shadowed">
+            <img src="./assets/image/strategy/3.svg" alt="strategy" class="strategy__image">
+            <div class="strategy__content">
+              <h3 class="strategy__title">
+                Increasing Prosperity With Positive Thinking
+              </h3>
+              <div class="strategy__tags">
+                <span class="tag tag_colored">Art</span>
+                <span class="tag tag_colored">Design</span>
+                <span class="tag tag_colored">Culture</span>
+              </div>
+            </div>
+          </article>
+          <article class="strategy block-shadowed">
+            <img src="./assets/image/strategy/2.svg" alt="strategy" class="strategy__image">
+            <div class="strategy__content">
+              <h3 class="strategy__title">
+                Motivation Is The First Step To Success
+              </h3>
+              <div class="strategy__tags">
+                <span class="tag tag_colored">Culture</span>
+              </div>
+            </div>
+          </article>
+          <article class="strategy block-shadowed">
+            <img src="./assets/image/strategy/3.svg" alt="strategy" class="strategy__image">
+            <div class="strategy__content">
+              <h3 class="strategy__title">
+                Increasing Prosperity With Positive Thinking
+              </h3>
+              <div class="strategy__tags">
+                <span class="tag tag_colored">Art</span>
+                <span class="tag tag_colored">Design</span>
+                <span class="tag tag_colored">Culture</span>
+              </div>
+            </div>
+          </article>
+          <article class="strategy block-shadowed">
+            <img src="./assets/image/strategy/1.svg" alt="strategy" class="strategy__image">
             <div class="strategy__content">
               <h3 class="strategy__title">
                 Increasing Prosperity With Positive Thinking
@@ -143,7 +199,7 @@
             </div>
           </article>
           <article class="strategy block-shadowed">
-            <img src="./assets/image/image/strategy/3.svg" alt="strategy" class="strategy__image">
+            <img src="./assets/image/strategy/3.svg" alt="strategy" class="strategy__image">
             <div class="strategy__content">
               <h3 class="strategy__title">
                 Increasing Prosperity With Positive Thinking
@@ -151,6 +207,30 @@
               <div class="strategy__tags">
                 <span class="tag tag_colored">Art</span>
                 <span class="tag tag_colored">Design</span>
+                <span class="tag tag_colored">Culture</span>
+              </div>
+            </div>
+          </article>
+          <article class="strategy block-shadowed">
+            <img src="./assets/image/strategy/1.svg" alt="strategy" class="strategy__image">
+            <div class="strategy__content">
+              <h3 class="strategy__title">
+                Increasing Prosperity With Positive Thinking
+              </h3>
+              <div class="strategy__tags">
+                <span class="tag tag_colored">Art</span>
+                <span class="tag tag_colored">Design</span>
+              </div>
+            </div>
+          </article>
+          <article class="strategy block-shadowed">
+            <img src="./assets/image/strategy/2.svg" alt="strategy" class="strategy__image">
+            <div class="strategy__content">
+              <h3 class="strategy__title">
+                Motivation Is The First Step To Success
+              </h3>
+              <div class="strategy__tags">
+                <span class="tag tag_colored">Culture</span>
               </div>
             </div>
           </article>
@@ -164,29 +244,29 @@
           Your About Us page is vital. It`s often the first stop in any user`s journey through a website or blog. It also shouldn`t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren`t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).
         </p>
         <div class="layout-3-columns">
-          <div class="employee">
+          <div class="employee block-shadowed">
             <div class="employee__content">
               <p class="employee__name">Kathy Rosenberg</p>
               <p class="employee__profession">Product Mannager</p>
               <a href="mailto:kathyr@gmail.com" class="employee__contact">kathyr@gmail.com</a>
             </div>
-            <div class="employee__image"></div>
+            <img src="./assets/image/about-us/1.png" alt="Kathy Rosenberg" class="employee__photo">
           </div>
-          <div class="employee">
+          <div class="employee block-shadowed">
             <div class="employee__content">
               <p class="employee__name">Alexandra Boyarskaya</p>
               <p class="employee__profession">Support Marketing Specialist</p>
               <a href="mailto:alexandrab@gmail.com" class="employee__contact">alexandrab@gmail.com</a>
             </div>
-            <div class="employee__image"></div>
+            <img src="./assets/image/about-us/2.png" alt="Alexandra Boyarskaya" class="employee__photo">
           </div>
-          <div class="employee">
+          <div class="employee block-shadowed">
             <div class="employee__content">
               <p class="employee__name">Melani Amini</p>
               <p class="employee__profession">Photographer</p>
               <a href="mailto:melania@gmail.com" class="employee__contact">melania@gmail.com</a>
             </div>
-            <div class="employee__image"></div>
+            <img src="./assets/image/about-us/3.png" alt="Melani Amini" class="employee__photo">
           </div>
         </div>
       </div>
@@ -194,33 +274,33 @@
     <section class="contact-us">
       <div class="container contact-us__container">
         <h2 class="contact-us__title">Contact Us</h2>
-        <div class="cayout-2-columns">
-            <div class="contact-us__content">
-              <p class="contact-us__description">
-                Your About Us page is vital. It`s often the first stop in any user`s journey through a website or blog. It also shouldn`t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren`t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).
-              </p>
-              <div class="contact-us__contacts">
-                <span class="icon-round"><span class="ico ico-phone"></span></span>
-                <a href="tel:+375223450099">+375 (22) 345-00-99</a>
-              </div>
-              <div class="contact-us__contacts">
-                <span class="icon-round"><span class="ico ico-mail"></span></span>
-                <a href="mailto:emailname@gmail.com">emailname@gmail.com</a>
-              </div>
+        <div class="layout-2-columns">
+          <div class="contact-us__content">
+            <p class="contact-us__description">
+              Your About Us page is vital. It`s often the first stop in any user`s journey through a website or blog. It also shouldn`t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren`t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).
+            </p>
+            <div class="contact-us__contacts">
+              <span class="icon-round"><span class="ico ico_phone"></span></span>
+              <a href="tel:+375223450099">+375 (22) 345-00-99</a>
             </div>
-            <div class="contact-us__form">
-              <form action method="POST">
-                <div class="layout-2-columns">
-                  <input type="text" name="name" placeholder="Your name">
-                  <input type="email" name="email" placeholder="Your email">
-                </div>
-                <textarea name="question" cols="30" rows="10" placeholder="What do you want to ask?">
-                </textarea>
-                <div class="contact-us__button">
-                  <button type="submit" class="button button_colored">Send</button>
-                </div>
-              </form>
+            <div class="contact-us__contacts">
+              <span class="icon-round"><span class="ico ico_mail"></span></span>
+              <a href="mailto:emailname@gmail.com">emailname@gmail.com</a>
             </div>
+          </div>
+          <div class="contact-us__form">
+            <form action method="POST">
+              <div class="layout-2-columns contact-us__line">
+                <input type="text" name="name" placeholder="Your name">
+                <input type="email" name="email" placeholder="Your email">
+              </div>
+              <textarea name="question"  rows="10" placeholder="What do you want to ask?">
+              </textarea>
+              <div class="contact-us__button">
+                <button type="submit" class="button button_colored">Send</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </section>
@@ -231,14 +311,14 @@
       <div class="layout-3-columns footer-navigation">
         <div class="footer-navigation__column">
           <h5 class="footer__title">Quick Links</h5>
-          <div class="footer-navigation__list">
+          <ul class="footer-navigation__list">
             <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">About Us</a></li>
             <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Blog</a></li>
             <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Contact</a></li>
             <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">FAQ</a></li>
-          </div>
+          </ul>
         </div>
-        <div class="footer-navigation__column">
+        <ul class="footer-navigation__column">
           <h5 class="footer__title">Legal Stuff</h5>
           <div class="footer-navigation__list">
             <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Disclaimer</a></li>
@@ -246,15 +326,15 @@
             <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Privacy Policy</a></li>
             <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Term of Service</a></li>
           </div>
-        </div>
+        </ul>
         <div class="footer-navigation__column">
           <h5 class="footer__title">Quick Links</h5>
-          <div class="footer-navigation__list">
+          <ul class="footer-navigation__list">
             <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">About Us</a></li>
             <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Blog</a></li>
             <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Contact</a></li>
             <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">FAQ</a></li>
-          </div>
+          </ul>
         </div>
       </div>
     </div>

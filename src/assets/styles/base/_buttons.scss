@@ -1,0 +1,46 @@
+.button {
+  @include font(1.6rem, 2.2rem, 600, #173A56);
+  border: 1px solid transparent;
+  padding: 10px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  @extend %transition;
+  &_bordered {
+    border-color: $color-hovered;
+    &:hover {
+      background-color: $color-hovered;
+    }
+  }
+  &_colored {
+    color: $color-light;
+    border-color: $color-prime;
+    background-color: $color-prime;
+    &:hover {
+      border-color: $color-additional;
+      background-color: $color-additional;
+    }
+  }
+}
+
+.link-button {
+  display: flex;
+  align-items: center;
+  @extend %font-add;
+  font-weight: 600;
+  color: $color-prime;
+  @extend %transition;
+  &:hover {
+    color: $color-additional;
+    .ico_play {
+      background-image: url(./assets/image/icons/play-hovered.svg);
+    }
+    .link-button__text {
+      text-decoration: underline;
+    }
+  }
+}
+
+.link-button__text {
+  margin-left: 9px;
+  @extend %transition;
+}

@@ -1,0 +1,80 @@
+.ico {
+  display: inline-block;
+  @extend %transition;
+}
+
+.icon-square {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+  &_violent {
+    background-color: $color-violent;
+  }
+  &_orange {
+    background-color: $color-orange;
+  }
+  &_red {
+    background-color: $color-red;
+  }
+  &_blue {
+    background-color: $color-blue;
+  }
+}
+
+.icon-round {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: $color-light;
+  border-radius: 100%;
+}
+
+.ico_play {
+  width: 19px;
+  height: 18px;
+  background-image: url(./assets/image/icons/play.svg);
+  cursor: pointer;
+}
+
+.ico_arrow {
+  width: 12px;
+  height: 17px;
+  background-image: url(./assets/image/icons/arrow.svg);
+}
+
+.ico_snake {
+  width: 18px;
+  height: 15px;
+  background-image: url(./assets/image/icons/snake.svg);
+}
+
+.ico_heart {
+  width: 17px;
+  height: 15px;
+  background-image: url(./assets/image/icons/heart.svg);
+}
+
+.ico_sandclock {
+  width: 15px;
+  height: 18px;
+  background-image: url(./assets/image/icons/sand-clock.svg);
+}
+
+.ico_phone {
+  cursor: pointer;
+  width: 7px;
+  height: 10px;
+  background-image: url(./assets/image/icons/phone.svg);
+}
+
+.ico_mail {
+  cursor: pointer;
+  width: 10px;
+  height: 7px;
+  background-image: url(./assets/image/icons/mail.svg);
+}

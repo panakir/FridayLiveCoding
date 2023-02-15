@@ -1,0 +1,41 @@
+.about-us {
+margin-bottom: 101px;
+}
+
+.about-us__title {
+  margin-bottom: 14px;
+}
+
+.about-us__description {
+  margin-bottom: 45px;
+}
+
+// Employee block
+.employee {
+  position: relative;
+  max-width: 345px;
+} 
+
+.employee__content {
+  padding: 35px;
+}
+
+.employee__name {
+  font-weight: 700;
+}
+
+.employee__profession {
+  font-size: 1.4rem;
+}
+
+.employee__contact {
+  font-size: 1.4rem;
+  color: $color-link;
+}
+
+.employee__photo {
+  position: absolute;
+  right: -32px;
+  top: 20px;
+  width: 98px;
+}

@@ -1,0 +1,29 @@
+//Abstract
+@import './assets/styles/abstracts/placeholders';
+@import './assets/styles/abstracts/constants';
+@import './assets/styles/abstracts/mixins';
+
+// Base
+@import './assets/styles/base/base';
+@import './assets/styles/base/buttons';
+@import './assets/styles/base/icons';
+@import './assets/styles/base/tags';
+
+// Components
+@import './assets/styles/components/navigation';
+@import './assets/styles/components/promo';
+@import './assets/styles/components/tools';
+@import './assets/styles/components/tool';
+@import './assets/styles/components/strategies';
+@import './assets/styles/components/about-us';
+@import './assets/styles/components/contact-us';
+@import './assets/styles/components/footer';
+
+// Layouts
+@import './assets/styles/layouts/container';
+@import './assets/styles/layouts/header';
+@import './assets/styles/layouts/columns';
+
+
+// Vendors
+@import './src/assets/styles/vendors/normalize';

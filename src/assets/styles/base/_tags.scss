@@ -1,0 +1,25 @@
+.tags {
+  display: flex;
+  gap: 7px;
+}
+
+.tag {
+  padding: 0 15px;
+  @include font(1.3rem, 2.8rem, 400, $color-text);
+  background-color: $color-light;
+  border: 1px solid $color-border;
+  border-radius: 90px;
+  cursor: pointer;
+  &_active {
+    background-color: $color-prime;
+    color: $color-light;
+    border-color: $color-prime;
+  }
+  &_bordered {
+    border-color: $color-border;
+  }
+  &_colored {
+    background-color: $color-tag;
+    border-color: $color-tag;
+  }
+}

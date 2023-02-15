@@ -1,0 +1,31 @@
+.header {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  background-color: $color-light;
+  padding: 15px 0 17px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__hamburger {
+  display: none;
+}
+
+.header__logo {
+  width: 190px;
+}
+
+.header__navigation {
+  width: 305px;
+}
+
+.header__buttons {
+  >.button {
+    &:not(&:last-child) {
+      margin-right: 14px;
+    }
+  }
+}

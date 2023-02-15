@@ -1,0 +1,50 @@
+.strategies {
+padding-bottom: 90px;
+}
+
+.strategies__title {
+  margin-bottom: 15px;
+}
+
+.strategies__description {
+  margin-bottom: 25px;
+}
+
+.strategies__tags {
+  margin-bottom: 31px;
+}
+
+.strategies__wrapper {
+  flex-wrap: wrap;
+  >* {
+    margin-bottom: 30px;
+  }
+}
+
+
+// Strategy Article
+.strategy {
+  cursor: pointer;
+  &:hover {
+    .strategy__title {
+      color: $color-prime;
+    }
+    .strategy__image {
+     filter: blur(3px);
+    }
+  }
+}
+
+.strategy__image {
+  border-radius: 8px 8px 0 0;
+  @extend %transition;
+}
+
+.strategy__content {
+  padding: 25px 32px;
+}
+
+.strategy__title {
+  margin-bottom: 30px;
+  @extend %transition;
+}
